@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Absensi_Sekolah.iml" filepath="$PROJECT_DIR$/.idea/modules/Absensi_Sekolah.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SweetAlert/Absensi_Sekolah.SweetAlert.iml" filepath="$PROJECT_DIR$/.idea/modules/SweetAlert/Absensi_Sekolah.SweetAlert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SweetAlert/Absensi_Sekolah.SweetAlert.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/SweetAlert/Absensi_Sekolah.SweetAlert.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SweetAlert/Absensi_Sekolah.SweetAlert.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SweetAlert/Absensi_Sekolah.SweetAlert.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SweetAlert/Absensi_Sekolah.SweetAlert.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/SweetAlert/Absensi_Sekolah.SweetAlert.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Absensi_Sekolah.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Absensi_Sekolah.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Absensi_Sekolah.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Absensi_Sekolah.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Absensi_Sekolah.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Absensi_Sekolah.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Absensi_Sekolah.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Absensi_Sekolah.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dialogsheet/Absensi_Sekolah.dialogsheet.iml" filepath="$PROJECT_DIR$/.idea/modules/dialogsheet/Absensi_Sekolah.dialogsheet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dialogsheet/Absensi_Sekolah.dialogsheet.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/dialogsheet/Absensi_Sekolah.dialogsheet.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dialogsheet/Absensi_Sekolah.dialogsheet.main.iml" filepath="$PROJECT_DIR$/.idea/modules/dialogsheet/Absensi_Sekolah.dialogsheet.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dialogsheet/Absensi_Sekolah.dialogsheet.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/dialogsheet/Absensi_Sekolah.dialogsheet.unitTest.iml" />
+    </modules>
+  </component>
+</project>

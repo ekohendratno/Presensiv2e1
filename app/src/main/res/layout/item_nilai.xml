@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/lyCard"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/colorWindowBackgroundWhite">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="?selectableItemBackgroundBorderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_weight="1"
+                    android:layout_gravity="center_vertical"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingTop="@dimen/activity_vertical_margin"
+                    android:paddingBottom="@dimen/activity_vertical_margin"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <info.androidhive.fontawesome.FontTextView
+                        android:visibility="gone"
+                        android:id="@+id/img1"
+                        android:layout_width="42.0dip"
+                        android:layout_height="42.0dip"
+                        android:layout_marginRight="16dp"
+                        android:padding="3dp"
+                        android:background="@drawable/circle"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/colorTextThird"
+                        android:textSize="16dp"
+                        app:solid_icon="true" />
+                    <TextView
+                        android:text="2021-10-22 10:30"
+                        android:textSize="12dp"
+                        android:textColor="@color/colorTextThird"
+                        android:layout_toRightOf="@+id/img1"
+                        android:fontFamily="sans-serif-light"
+                        android:id="@+id/tv1"
+                        android:paddingRight="10dp"
+                        android:layout_marginBottom="4.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content" />
+
+                    <TextView
+                        android:text=""
+                        android:layout_toRightOf="@+id/tv1"
+                        android:id="@+id/tv3"
+                        android:layout_marginLeft="4dp"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_marginBottom="4.0dip"
+                        android:textSize="12dp"
+                        android:textColor="@color/colorTextThird"
+                        android:paddingRight="10dp"
+                        android:paddingLeft="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content" />
+                    <TextView
+                        android:text="Text Keterangan"
+                        android:textSize="16dp"
+                        android:textColor="@color/colorTextThird"
+                        android:layout_toRightOf="@+id/img1"
+                        android:fontFamily="sans-serif-light"
+                        android:id="@+id/tv2"
+                        android:layout_below="@+id/tv1"
+                        android:layout_marginBottom="4.0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent" />
+
+                    <TextView
+                        android:text="Bagas permana,S.Pd"
+                        android:id="@+id/tv4"
+                        android:layout_toRightOf="@+id/img1"
+                        android:layout_below="@+id/tv2"
+                        android:fontFamily="sans-serif-light"
+                        android:layout_marginBottom="4.0dip"
+                        android:layout_marginEnd="4dp"
+                        android:textSize="14dp"
+                        android:maxLines="2"
+                        android:textColor="@color/colorTextThird"
+                        android:paddingRight="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_marginRight="4dp" />
+
+
+
+
+                </RelativeLayout>
+                <LinearLayout
+                    android:background="@color/colorTextThird"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:visibility="gone"
+                        android:id="@+id/action_edit"
+                        android:background="?selectableItemBackgroundBorderless"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/ic_baseline_create_24"
+                        android:adjustViewBounds="true"
+                        app:tint="#DADADA" />
+
+                    <ImageButton
+                        android:visibility="gone"
+                        android:id="@+id/action_del"
+                        android:background="?selectableItemBackgroundBorderless"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:srcCompat="@drawable/ic_baseline_delete_forever_24"
+                        android:adjustViewBounds="true"
+                        app:tint="#DADADA" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <View
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_below="@+id/main_row"
+                style="@style/divider" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

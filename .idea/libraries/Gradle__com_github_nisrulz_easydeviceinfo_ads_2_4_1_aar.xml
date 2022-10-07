@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.nisrulz:easydeviceinfo-ads:2.4.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93505895c5ffe6f655cf682bb38131ca/jetified-easydeviceinfo-ads-2.4.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93505895c5ffe6f655cf682bb38131ca/jetified-easydeviceinfo-ads-2.4.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/93505895c5ffe6f655cf682bb38131ca/jetified-easydeviceinfo-ads-2.4.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.nisrulz/easydeviceinfo-ads/2.4.1/41a9018c40afc8681706a941641c78caef0d6858/easydeviceinfo-ads-2.4.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.nisrulz/easydeviceinfo-ads/2.4.1/3c5984a75ec9ac5aa121e810ef2c79de0ad250ca/easydeviceinfo-ads-2.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

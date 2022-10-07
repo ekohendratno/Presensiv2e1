@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="Gradle: biz.laenger.android:vpbs:0.0.6@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac03892a6716467a04abbddb88d0d828/jetified-vpbs-0.0.6/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b336b7505007599f89f7859b948b78e1/jetified-vpbs-0.0.6/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a699f11ac9f03bbdaa85a166eddca0fd/jetified-vpbs-0.0.6/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7961e2459e7ded9e15aaacc28ae35935/jetified-vpbs-0.0.6/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac03892a6716467a04abbddb88d0d828/jetified-vpbs-0.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac03892a6716467a04abbddb88d0d828/jetified-vpbs-0.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ac03892a6716467a04abbddb88d0d828/jetified-vpbs-0.0.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b336b7505007599f89f7859b948b78e1/jetified-vpbs-0.0.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b336b7505007599f89f7859b948b78e1/jetified-vpbs-0.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b336b7505007599f89f7859b948b78e1/jetified-vpbs-0.0.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a699f11ac9f03bbdaa85a166eddca0fd/jetified-vpbs-0.0.6/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a699f11ac9f03bbdaa85a166eddca0fd/jetified-vpbs-0.0.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a699f11ac9f03bbdaa85a166eddca0fd/jetified-vpbs-0.0.6/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7961e2459e7ded9e15aaacc28ae35935/jetified-vpbs-0.0.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7961e2459e7ded9e15aaacc28ae35935/jetified-vpbs-0.0.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7961e2459e7ded9e15aaacc28ae35935/jetified-vpbs-0.0.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/biz.laenger.android/vpbs/0.0.6/17e161b9dea43f77023db2664f9e6efa80edb485/vpbs-0.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

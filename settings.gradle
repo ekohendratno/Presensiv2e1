@@ -1,0 +1,2 @@
+rootProject.name = "Absensi Sekolah"
+include ':app',':dialogsheet',':SweetAlert'

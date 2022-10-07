@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:layout_collapseMode="pin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/toolbar_title"
+                    android:fontFamily="sans-serif-light"
+                    style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Dashboard"/>
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/root_view"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:background="@color/colorWindowBackground"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <!--data siswa start-->
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@id/c_d"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="0dp"
+            android:background="@android:color/background_light">
+
+            <LinearLayout
+                android:id="@+id/main_row"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:padding="@dimen/activity_horizontal_margin"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+
+
+
+                    <RelativeLayout
+                        android:id="@+id/layoutAvatar"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginRight="@dimen/activity_vertical_margin"
+                        android:layout_width="64dp"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/circle"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp">
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/foto"
+                                android:layout_width="64dp"
+                                android:layout_height="64dp"
+                                android:layout_gravity="center_horizontal"
+                                android:contentDescription="@null"
+                                android:src="@drawable/family_avatar"
+                                app:civ_border_width="0dp"
+                                app:civ_border_color="#FF000000" />
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:visibility="gone"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp">
+
+                            <ImageView
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentBottom="true"
+                                android:id="@+id/sex"
+                                android:padding="4dp"
+                                android:background="@drawable/shape_white_circle"
+                                app:srcCompat="@drawable/ic_male"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp" />
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/actionProfile"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_toRightOf="@+id/layoutAvatar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/tvNama"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Ortu"
+                            android:fontFamily="sans-serif"
+                            android:textSize="21dp"
+                            android:textColor="@color/colorTextThird"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
+                        <TextView
+                            android:id="@+id/tvNIK"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="000000000000000"
+                            android:fontFamily="sans-serif-light"
+                            android:textSize="14dp"
+                            android:textColor="@color/colorTextThird" />
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:visibility="gone"
+                        android:id="@+id/btn_action_notif"
+                        android:padding="10dp"
+                        android:background="@drawable/circle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        app:srcCompat="@drawable/ic_baseline_notifications_24"
+                        android:layout_toLeftOf="@+id/btn_action_logout"
+                        android:adjustViewBounds="true" />
+
+                    <ImageButton
+                        android:id="@+id/btn_action_logout"
+                        android:padding="10dp"
+                        android:background="@drawable/circle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                        app:srcCompat="@drawable/ic_baseline_exit_to_app_24"
+                        android:adjustViewBounds="true"
+                        android:layout_alignParentRight="true" />
+
+                </RelativeLayout>
+
+
+
+                <com.google.android.material.tabs.TabLayout
+                    app:layout_collapseMode="pin"
+                    android:id="@+id/tabLayoutX"
+                    android:layout_below="@+id/c_d"
+                    app:tabTextAppearance="@style/tab_text"
+                    android:layout_width="match_parent"
+                    app:tabTextColor="@color/colorPrimary"
+                    app:tabIndicatorColor="@color/colorAccent"
+                    app:tabSelectedTextColor="@color/colorPrimaryDark"
+                    app:tabGravity="center"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <com.absensi.sekolah.config.NonSwipeableViewPager
+            android:id="@+id/viewPagerX"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

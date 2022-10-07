@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/coder/AndroidStudioProjects/Presensiv2/app/src/main/res/layout/activity_guru_dashboard.xml" value="0.18796296296296297" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2/app/src/main/res/layout/activity_guru_dashboard.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2/app/src/main/res/layout/activity_orangtua_dashboard.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2/app/src/main/res/layout/activity_siswa_dashboard.xml" value="0.3055555555555556" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/activity_admin_guru.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/activity_admin_pelajaran.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/activity_admin_presensi.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/activity_admin_siswa.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/activity_guru_absensi.xml" value="0.3055555555555556" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/activity_guru_nilai.xml" value="0.3055555555555556" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/activity_siswa_dashboard.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/activity_siswa_presensi.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/bottomsheet_admin_guru.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/bottomsheet_admin_orangtua.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/bottomsheet_admin_siswa.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/bottomsheet_guru_absensi.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/bottomsheet_guru_absensi_byguru.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/bottomsheet_guru_nilai.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/bottomsheet_guru_nilai_byguru.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/bottomsheet_guru_tugas.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/bottomsheet_guru_tugas_dikerjakan.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/bottomsheet_siswa_dashboard.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/bottomsheet_siswa_dashboard3.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/bottomsheet_siswa_tugas.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/item_absensi.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/item_guru.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/item_header.xml" value="0.3625" />
+        <entry key="..\:/Users/koding/StudioProjects/Presensiv2e1/app/src/main/res/layout/item_presensi.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
